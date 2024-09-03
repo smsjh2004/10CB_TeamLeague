@@ -1,0 +1,88 @@
+/* 전체 스타일링 */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f06, #48f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 계산기 컨테이너 */
+.calculator-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    color: white;
+}
+
+/* 제목 스타일 */
+.calculator-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* 입력 그룹 스타일 */
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #eee;
+}
+
+/* 선택 상자 스타일 */
+.styled-select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    outline: none;
+    appearance: none;
+    transition: background-color 0.3s ease;
+}
+
+.styled-select:hover, .styled-select:focus {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* 버튼 스타일 */
+.calculate-button {
+    padding: 15px 25px;
+    background: #48f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.calculate-button:hover {
+    background: #f06;
+}
+
+/* 결과 텍스트 스타일 */
+p#result, p#remaining {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}

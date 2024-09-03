@@ -1,0 +1,55 @@
+/* 전체 스타일링 */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f06, #48f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 메인 컨테이너 스타일 */
+.main-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+/* 제목 스타일 */
+.main-container h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #fff;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 버튼 그룹 스타일 */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 메뉴 버튼 스타일 */
+.menu-button {
+    padding: 15px 25px;
+    background: #48f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu-button:hover {
+    background: #f06;
+}
